@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.cal-c-body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100% vh;
+    height: 500px;  
+    margin-top: 69px; 
+}
+
+.screen{
+
+    background-color: black;
+    width: 10px;
+    height: 10px;
+
+}
+
+.inp{
+
+    width: 255px;
+    height: 64px;
+    padding-top: 0px;
+    margin-top: 16px;
+    border-radius: 10px;
+}
+
+
+.cal-c-s1, .cal-c-s2, .cal-c-s3, .cal-c-s4, .cal-c-s0{
+
+    justify-content: space-evenly;
+    display: flex;
+    /* gap: 15px; */
+}
+
+.cal-c-s1{
+
+    margin-top: -127px;
+}
+
+
+.b1,.b2,.b3,.b4,.b5,.b6,.b7,.b8,.b9,.b0,.bm,.bd,.bx,.bp,.bq,.bc,.bdel{
+    width: 56px;
+    height: 63px;
+    border-radius: 10px;
+    background-color: grey;
+    color: white;
+    font-weight: 500;
+    border: none;
+}
+
+
+/* .bd{
+    margin-left: 125px;
+} */
